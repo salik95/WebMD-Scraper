@@ -17,7 +17,7 @@ conditions_column_names = ['id', 'name', 'webmd_url']
 treatments_column_names = ['id', 'condition_id', 'name', 'effectiveness', 'average_effectiveness', 'average_easeofuse', 'average_satisfaction', 'total_reviews']
 reviews_column_names = ['id', 'treatment_id', 'date', 'reason_for_taking', 'reviewer_info', 'effectiveness', 'easeofuse', 'satsfaction', 'comment', 'people_find_helpful']
 
-with open('WebMD Conditions URL.tsv') as conditions:
+with open('WebMD 26-30.tsv') as conditions:
 	for cnd in conditions:
 		conditions_url.append(cnd.strip('\n').split('\t'))
 
@@ -125,7 +125,7 @@ for url in conditions_url:
 
 driver.close()
 
-condition_outfile = open('condition.csv', 'w')
+condition_outfile = open('condition 6.csv', 'w')
 condition_outcsv = csv.writer(condition_outfile)
 condition_outcsv.writerow([column for column in conditions_column_names])
 [condition_outcsv.writerow([value for value in item]) for item in conditions_data]
@@ -133,7 +133,7 @@ condition_outfile.close()
 print('===================================')
 print('Conditions Data Length: ' + str(len(conditions_data)))
 
-treatment_outfile = open('treatment.csv', 'w')
+treatment_outfile = open('treatment 6.csv', 'w')
 treatment_outcsv = csv.writer(treatment_outfile)
 treatment_outcsv.writerow([column for column in treatments_column_names])
 [treatment_outcsv.writerow([value for value in item]) for item in treatments_data]
@@ -141,7 +141,7 @@ treatment_outfile.close()
 print('===================================')
 print('Treatments Data Length: ' + str(len(treatments_data)))
 
-review_outfile = open('review.csv', 'w')
+review_outfile = open('review 6.csv', 'w')
 review_outcsv = csv.writer(review_outfile)
 review_outcsv.writerow([column for column in reviews_column_names])
 [review_outcsv.writerow([value for value in item]) for item in reviews_data]
