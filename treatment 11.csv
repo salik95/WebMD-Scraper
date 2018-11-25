@@ -1,0 +1,41 @@
+id,condition_id,name,effectiveness,average_effectiveness,average_easeofuse,average_satisfaction,total_reviews
+1,1,BROMELAIN,Insufficient Evidence,4.4,4.56,4.38,45
+2,1,CHONDROITIN SULFATE,Possibly Effective,3.69,4.25,3.44,16
+3,1,CRANBERRY,Possibly Effective,3.65,4.23,3.85,78
+4,1,DANDELION,Insufficient Evidence,4.47,4.42,4.42,19
+5,1,HIBISCUS,Insufficient Evidence,4.08,4.12,4.12,49
+6,1,HORSERADISH,Insufficient Evidence,4.33,4.11,4.22,9
+7,1,LACTOBACILLUS,Insufficient Evidence,4.16,4.45,4.25,92
+8,1,LINGONBERRY,Possibly Effective,4.5,4.5,4.5,4
+9,1,UVA URSI,Insufficient Evidence,4.5,4.73,4.36,22
+10,1,VITAMIN C (ASCORBIC ACID),Insufficient Evidence,4.33,4.4,4.4,52
+11,1,YOGURT,Insufficient Evidence,4.33,4.6,4.5,30
+12,2,CAPSICUM,Possibly Effective,4.03,4.11,4.03,37
+13,2,INDIAN FRANKINCENSE,Insufficient Evidence,4.32,4.68,4.5,28
+14,2,MAGNESIUM,Possibly Effective,4.05,4.38,4.06,284
+15,2,MELATONIN,Insufficient Evidence,3.82,4.41,3.62,457
+16,3,EUCALYPTUS,Insufficient Evidence,4.52,4.39,4.39,23
+17,4,CAFFEINE,Insufficient Evidence,3.91,4.38,3.6,45
+18,5,5-HTP,Insufficient Evidence,3.93,4.4,3.85,379
+19,5,ALPHA-LIPOIC ACID,Insufficient Evidence,3.85,4.3,3.9,239
+20,5,BLACK COHOSH,Insufficient Evidence,3.72,4.27,3.45,264
+21,5,BUTTERBUR,Possibly Effective,4.27,4.8,4.32,71
+22,5,CAFFEINE,Effective,3.91,4.38,3.6,45
+23,5,CAPSICUM,Insufficient Evidence,4.03,4.11,4.03,37
+24,5,COENZYME Q10,Possibly Effective,3.83,4.46,3.96,184
+25,5,DONG QUAI,Insufficient Evidence,4.12,4.24,3.88,17
+26,5,FEVERFEW,Possibly Effective,4.31,4.51,4.24,59
+27,5,FISH OIL,Possibly Ineffective,3.48,4.12,3.58,199
+28,5,GINGER,Insufficient Evidence,4.36,4.53,4.51,75
+29,5,GINKGO,Insufficient Evidence,3.6,4.24,3.63,70
+30,5,L-ARGININE,Insufficient Evidence,4.01,4.53,4.07,121
+31,5,LAVENDER,Insufficient Evidence,4.27,4.81,4.35,26
+32,5,L-CARNITINE,Insufficient Evidence,3.48,4.05,3.66,56
+33,5,MAGNESIUM,Insufficient Evidence,4.05,4.38,4.06,284
+34,5,MARITIME PINE,Insufficient Evidence,4.29,4.52,4.32,79
+35,5,MELATONIN,Insufficient Evidence,3.82,4.41,3.62,457
+36,5,OLIVE,Insufficient Evidence,4.35,4.45,4.3,20
+37,5,PEPPERMINT,Possibly Effective,4.0,4.48,4.14,21
+38,5,RIBOFLAVIN,Possibly Effective,4.46,4.68,4.41,37
+39,5,SOY,Insufficient Evidence,3.64,4.05,3.61,44
+40,5,ST. JOHN'S WORT,Insufficient Evidence,4.1,4.47,4.03,143

@@ -1,0 +1,29 @@
+id,condition_id,name,effectiveness,average_effectiveness,average_easeofuse,average_satisfaction,total_reviews
+1,1,ASTRAGALUS,Insufficient Evidence,4.22,4.41,4.32,37
+2,1,BLUE-GREEN ALGAE,Insufficient Evidence,3.94,4.42,3.85,33
+3,1,COCOA,Insufficient Evidence,3.44,4.22,3.56,9
+4,1,DHEA,Insufficient Evidence,3.67,4.35,3.59,184
+5,1,EVENING PRIMROSE OIL,Insufficient Evidence,4.28,4.68,4.37,107
+6,1,FISH OIL,Insufficient Evidence,3.48,4.12,3.58,199
+7,1,FOLIC ACID,Possibly Ineffective,3.34,4.18,3.45,99
+8,1,L-CARNITINE,Insufficient Evidence,3.48,4.05,3.66,56
+9,1,LIVER EXTRACT,Possibly Ineffective,4.0,4.0,4.0,9
+10,1,MAGNESIUM,Possibly Effective,4.05,4.38,4.06,284
+11,1,MELATONIN,Insufficient Evidence,3.82,4.41,3.62,457
+12,1,NADH,Possibly Effective,4.09,4.42,3.96,45
+13,1,PROPIONYL-L-CARNITINE,Insufficient Evidence,4.2,3.9,4.1,10
+14,1,RIBOSE,Insufficient Evidence,4.07,4.46,4.18,111
+15,1,TRANSFER FACTOR,Insufficient Evidence,4.0,4.4,4.13,15
+16,2,IRON,Insufficient Evidence,3.33,3.86,3.1,63
+17,2,LAVENDER,Insufficient Evidence,4.27,4.81,4.35,26
+18,2,L-CARNITINE,Insufficient Evidence,3.48,4.05,3.66,56
+19,2,PANAX GINSENG,Insufficient Evidence,4.34,4.6,4.23,35
+20,2,RHODIOLA,Insufficient Evidence,4.2,4.62,4.06,97
+21,2,ROSEMARY,Insufficient Evidence,3.1,3.4,3.1,10
+22,2,TAURINE,Insufficient Evidence,4.39,4.69,4.53,51
+23,2,VITAMIN B12,Insufficient Evidence,3.57,4.17,3.56,133
+24,3,L-CARNITINE,Insufficient Evidence,3.48,4.05,3.66,56
+25,4,ACETYL-L-CARNITINE,Insufficient Evidence,3.68,4.34,3.66,71
+26,4,PANAX GINSENG,Possibly Effective,4.34,4.6,4.23,35
+27,4,VITAMIN A,Insufficient Evidence,3.42,3.92,3.42,12
+28,5,BLACK CURRANT,Insufficient Evidence,4.22,4.33,4.56,18
