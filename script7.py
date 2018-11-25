@@ -33,7 +33,12 @@ review_id = reviews_starting_id
 
 for url in conditions_url:
 
-	condition_req = requests.get(url[1])
+	while 1:
+		try:
+			condition_req = requests.get(url[1])
+			break
+		except:
+			continue
 	condition_soup = BeautifulSoup(condition_req.text)
 
 	print('========================')
@@ -47,7 +52,12 @@ for url in conditions_url:
 		reviews_page_link = row[2].find('a')['href']
 		print('========================')
 
-		driver.get(row[2].find('a')['href']+'&pageIndex=0&sortby=3&conditionFilter=-1')
+		while 1:
+			try:
+				driver.get(row[2].find('a')['href']+'&pageIndex=0&sortby=3&conditionFilter=-1')
+				break
+			except:
+				continue
 		driver.implicitly_wait(23)
 
 		reviews_req = driver.page_source
@@ -99,7 +109,12 @@ for url in conditions_url:
 				break
 
 			current_review_page = current_review_page + 1
-			driver.get(row[2].find('a')['href']+'&pageIndex=' + str(current_review_page) + '&sortby=3&conditionFilter=-1')
+			while 1:
+				try:
+					driver.get(row[2].find('a')['href']+'&pageIndex=' + str(current_review_page) + '&sortby=3&conditionFilter=-1')
+					break
+				except:
+					continue
 			driver.implicitly_wait(23)
 			reviews_req = driver.page_source
 			reviews_soup = BeautifulSoup(reviews_req)

@@ -17,7 +17,7 @@ conditions_column_names = ['id', 'name', 'webmd_url']
 treatments_column_names = ['id', 'condition_id', 'name', 'effectiveness', 'average_effectiveness', 'average_easeofuse', 'average_satisfaction', 'total_reviews']
 reviews_column_names = ['id', 'treatment_id', 'date', 'reason_for_taking', 'reviewer_info', 'effectiveness', 'easeofuse', 'satsfaction', 'comment', 'people_find_helpful']
 
-with open('WebMD 36-40.tsv') as conditions:
+with open('WebMD 51-55.tsv') as conditions:
 	for cnd in conditions:
 		conditions_url.append(cnd.strip('\n').split('\t'))
 
@@ -33,7 +33,13 @@ review_id = reviews_starting_id
 
 for url in conditions_url:
 
-	condition_req = requests.get(url[1])
+	while 1:
+		try:
+			condition_req = requests.get(url[1])
+			break
+		except:
+			continue
+
 	condition_soup = BeautifulSoup(condition_req.text)
 
 	print('========================')
@@ -46,8 +52,12 @@ for url in conditions_url:
 		effectiveness = row[1].find(text=True, recursive=False).strip()
 		reviews_page_link = row[2].find('a')['href']
 		print('========================')
-
-		driver.get(row[2].find('a')['href']+'&pageIndex=0&sortby=3&conditionFilter=-1')
+		while 1:
+			try:
+				driver.get(row[2].find('a')['href']+'&pageIndex=0&sortby=3&conditionFilter=-1')
+				break
+			except:
+				continue
 		driver.implicitly_wait(23)
 
 		reviews_req = driver.page_source
@@ -99,7 +109,12 @@ for url in conditions_url:
 				break
 
 			current_review_page = current_review_page + 1
-			driver.get(row[2].find('a')['href']+'&pageIndex=' + str(current_review_page) + '&sortby=3&conditionFilter=-1')
+			while 1:
+				try:
+					driver.get(row[2].find('a')['href']+'&pageIndex=' + str(current_review_page) + '&sortby=3&conditionFilter=-1')
+					break
+				except:
+					continue
 			driver.implicitly_wait(23)
 			reviews_req = driver.page_source
 			reviews_soup = BeautifulSoup(reviews_req)
@@ -125,7 +140,7 @@ for url in conditions_url:
 
 driver.close()
 
-condition_outfile = open('condition 8.csv', 'w')
+condition_outfile = open('condition 11.csv', 'w')
 condition_outcsv = csv.writer(condition_outfile)
 condition_outcsv.writerow([column for column in conditions_column_names])
 [condition_outcsv.writerow([value for value in item]) for item in conditions_data]
@@ -133,7 +148,7 @@ condition_outfile.close()
 print('===================================')
 print('Conditions Data Length: ' + str(len(conditions_data)))
 
-treatment_outfile = open('treatment 8.csv', 'w')
+treatment_outfile = open('treatment 11.csv', 'w')
 treatment_outcsv = csv.writer(treatment_outfile)
 treatment_outcsv.writerow([column for column in treatments_column_names])
 [treatment_outcsv.writerow([value for value in item]) for item in treatments_data]
@@ -141,7 +156,7 @@ treatment_outfile.close()
 print('===================================')
 print('Treatments Data Length: ' + str(len(treatments_data)))
 
-review_outfile = open('review 8.csv', 'w')
+review_outfile = open('review 11.csv', 'w')
 review_outcsv = csv.writer(review_outfile)
 review_outcsv.writerow([column for column in reviews_column_names])
 [review_outcsv.writerow([value for value in item]) for item in reviews_data]
