@@ -1,0 +1,141 @@
+id,condition_id,name,effectiveness,average_effectiveness,average_easeofuse,average_satisfaction,total_reviews
+1,1,CAFFEINE,Possibly Effective,3.91,4.38,3.6,45
+2,2,CAFFEINE,Effective,3.91,4.38,3.6,45
+3,3,MELATONIN,Insufficient Evidence,3.82,4.41,3.62,457
+4,4,5-HTP,Insufficient Evidence,3.93,4.4,3.85,379
+5,4,CAFFEINE,Effective,3.91,4.38,3.6,45
+6,4,PEPPERMINT,Possibly Effective,4.0,4.48,4.14,21
+7,5,AGAR,Insufficient Evidence,3.17,3.11,4.06,18
+8,5,AGARICUS MUSHROOM,Insufficient Evidence,5.0,4.0,5.0,4
+9,5,ALOE,Possibly Effective,4.06,4.4,3.98,62
+10,5,ALPHA-LIPOIC ACID,Possibly Effective,3.85,4.3,3.9,239
+11,5,AMERICAN GINSENG,Possibly Effective,3.38,3.75,3.75,8
+12,5,APPLE,Insufficient Evidence,4.67,4.0,4.33,3
+13,5,APPLE CIDER VINEGAR,Insufficient Evidence,4.16,4.3,4.16,223
+14,5,ARABINOXYLAN,Insufficient Evidence,0.0,0.0,0.0,0
+15,5,ARTEMISIA HERBA-ALBA,Insufficient Evidence,4.33,4.33,4.33,3
+16,5,ASHWAGANDHA,Insufficient Evidence,3.92,4.38,3.89,135
+17,5,ASTRAGALUS,Possibly Effective,4.22,4.41,4.32,37
+18,5,BANABA,Possibly Effective,4.91,5.0,4.82,11
+19,5,BAY LEAF,Insufficient Evidence,2.0,3.0,2.0,1
+20,5,BEER,Possibly Effective,4.0,4.67,3.67,18
+21,5,BERBERINE,Possibly Effective,4.0,4.31,3.97,72
+22,5,BETA-CAROTENE,Possibly Ineffective,4.14,4.14,4.14,7
+23,5,BETA-GLUCANS,Insufficient Evidence,4.67,4.81,4.67,27
+24,5,BIFIDOBACTERIA,Insufficient Evidence,4.18,4.47,4.29,17
+25,5,BILBERRY,Insufficient Evidence,4.0,4.29,4.19,21
+26,5,BIOTIN,Insufficient Evidence,3.75,4.52,3.73,190
+27,5,BITTER MELON,Insufficient Evidence,4.38,4.47,4.36,47
+28,5,BITTER ORANGE,Insufficient Evidence,2.1,2.4,2.3,10
+29,5,BLACK PSYLLIUM,Insufficient Evidence,3.0,3.0,4.0,1
+30,5,BLACK SEED,Possibly Effective,3.88,4.19,3.94,69
+31,5,BLACK TEA,Possibly Ineffective,3.93,4.53,4.2,15
+32,5,BLOND PSYLLIUM,Possibly Effective,3.88,3.5,3.63,8
+33,5,BLUEBERRY,Insufficient Evidence,3.0,4.0,3.0,1
+34,5,BLUE-GREEN ALGAE,Insufficient Evidence,3.94,4.42,3.85,33
+35,5,BOVINE COLOSTRUM,Insufficient Evidence,4.39,4.93,4.46,28
+36,5,BRANCHED-CHAIN AMINO ACIDS,Insufficient Evidence,3.45,3.95,3.35,20
+37,5,BREWER'S YEAST,Insufficient Evidence,4.25,4.6,4.5,20
+38,5,BRUSSELS SPROUT,Insufficient Evidence,0.0,0.0,0.0,0
+39,5,BUCKWHEAT,Insufficient Evidence,3.17,3.22,4.0,23
+40,5,BURDOCK,Insufficient Evidence,4.55,4.64,4.55,11
+41,5,CAFFEINE,Possibly Effective,3.91,4.38,3.6,45
+42,5,CALCIUM,Insufficient Evidence,3.3,3.6,3.15,40
+43,5,CASSIA CINNAMON,Possibly Effective,4.28,4.42,4.2,40
+44,5,CAULIFLOWER,Insufficient Evidence,0.0,0.0,0.0,0
+45,5,CHANCA PIEDRA,Insufficient Evidence,4.66,4.66,4.68,85
+46,5,CHIA,Insufficient Evidence,3.7,4.24,3.75,63
+47,5,CHROMIUM,Possibly Effective,3.87,4.4,3.93,102
+48,5,CHRYSANTHEMUM,Insufficient Evidence,4.0,4.5,4.0,4
+49,5,CINNAMOMUM BURMANNII,Insufficient Evidence,0.0,0.0,0.0,0
+50,5,CINNAMOMUM TAMALA,Insufficient Evidence,0.0,0.0,0.0,0
+51,5,COCOA,Insufficient Evidence,3.44,4.22,3.56,9
+52,5,COENZYME Q10,Insufficient Evidence,3.83,4.46,3.96,184
+53,5,COFFEE,Possibly Effective,3.62,4.69,4.31,13
+54,5,CONJUGATED LINOLEIC ACID,Possibly Ineffective,3.42,4.05,3.52,77
+55,5,CRANBERRY,Possibly Ineffective,3.65,4.23,3.85,78
+56,5,CREATINE,Insufficient Evidence,3.92,4.17,3.67,40
+57,5,DHA (DOCOSAHEXAENOIC ACID),Possibly Ineffective,3.47,4.47,3.94,17
+58,5,DIACYLGLYCEROL,Insufficient Evidence,0.0,0.0,0.0,0
+59,5,EPA (EICOSAPENTAENOIC ACID),Possibly Ineffective,4.0,4.57,3.57,7
+60,5,EUROPEAN BARBERRY,Insufficient Evidence,5.0,5.0,5.0,1
+61,5,FENUGREEK,Possibly Effective,4.2,4.48,4.09,75
+62,5,FIG,Insufficient Evidence,4.14,4.57,4.43,7
+63,5,FISH OIL,Likely Ineffective,3.48,4.12,3.58,199
+64,5,FLAXSEED,Possibly Effective,3.77,4.29,3.89,84
+65,5,FLAXSEED OIL,Possibly Ineffective,3.7,4.41,3.85,71
+66,5,FOLIC ACID,Insufficient Evidence,3.34,4.18,3.45,99
+67,5,GARLIC,Possibly Effective,4.28,4.6,4.35,40
+68,5,GINGER,Insufficient Evidence,4.36,4.53,4.51,75
+69,5,"GINSENG, SIBERIAN",Possibly Effective,4.38,4.48,4.05,21
+70,5,GLUCOMANNAN,Possibly Effective,3.66,4.02,3.77,56
+71,5,GOJI,Insufficient Evidence,3.5,3.38,3.63,8
+72,5,GREEN TEA,Insufficient Evidence,3.72,4.23,3.78,60
+73,5,GUAR GUM,Insufficient Evidence,3.0,3.0,3.22,9
+74,5,GUARUMO,Possibly Effective,3.0,5.0,4.0,1
+75,5,GYMNEMA,Insufficient Evidence,4.0,4.53,3.95,59
+76,5,HESPERIDIN,Insufficient Evidence,4.8,4.8,4.4,5
+77,5,HOLY BASIL,Insufficient Evidence,4.73,4.93,4.78,67
+78,5,HONEY,Possibly Effective,4.22,4.33,4.11,18
+79,5,INDIAN FRANKINCENSE,Insufficient Evidence,4.32,4.68,4.5,28
+80,5,INOSITOL,Insufficient Evidence,4.05,4.4,4.05,58
+81,5,INULIN,Possibly Effective,2.9,3.56,2.66,50
+82,5,IRVINGIA GABONENSIS,Insufficient Evidence,3.36,4.2,3.4,50
+83,5,IVY GOURD,Possibly Effective,3.8,3.6,4.0,10
+84,5,JACKFRUIT,Insufficient Evidence,0.0,0.0,0.0,0
+85,5,JAMBOLAN,Possibly Ineffective,4.2,4.0,4.4,5
+86,5,JIAOGULAN,Insufficient Evidence,4.1,4.35,4.2,20
+87,5,KUDZU,Insufficient Evidence,4.29,4.49,4.34,35
+88,5,L-ARGININE,Insufficient Evidence,4.01,4.53,4.07,121
+89,5,L-CARNITINE,Insufficient Evidence,3.48,4.05,3.66,56
+90,5,LUTEIN,Insufficient Evidence,3.07,3.65,2.98,60
+91,5,LYSINE,Insufficient Evidence,4.61,4.76,4.61,458
+92,5,MAGNESIUM,Possibly Effective,4.05,4.38,4.06,284
+93,5,MAITAKE MUSHROOM,Insufficient Evidence,3.94,4.39,4.06,18
+94,5,MARITIME PINE,Insufficient Evidence,4.29,4.52,4.32,79
+95,5,MILK THISTLE,Possibly Effective,3.97,4.46,4.11,72
+96,5,MORINGA,Insufficient Evidence,4.11,4.29,4.13,140
+97,5,MYRCIA,Insufficient Evidence,0.0,0.0,0.0,0
+98,5,NIACIN AND NIACINAMIDE (VITAMIN B3),Possibly Effective,3.39,3.9,3.32,138
+99,5,NIACINAMIDE,Possibly Effective,0.0,0.0,0.0,0
+100,5,OATS,Possibly Effective,4.17,4.58,4.08,12
+101,5,OLIVE,Possibly Effective,4.35,4.45,4.3,20
+102,5,ONION,Insufficient Evidence,4.5,4.0,4.25,4
+103,5,OOLONG TEA,Insufficient Evidence,4.33,4.75,4.42,12
+104,5,PANAX GINSENG,Insufficient Evidence,4.34,4.6,4.23,35
+105,5,PANCREATIN,Possibly Ineffective,4.33,4.78,4.33,9
+106,5,PAPAYA,Insufficient Evidence,4.0,4.29,3.93,14
+107,5,PATA DE VACA,Insufficient Evidence,0.0,0.0,0.0,0
+108,5,PHASEOLUS VULGARIS,Insufficient Evidence,4.0,4.5,4.0,2
+109,5,POLYDEXTROSE,Insufficient Evidence,0.0,0.0,0.0,0
+110,5,POMEGRANATE,Insufficient Evidence,3.8,4.65,4.1,20
+111,5,PRICKLY PEAR CACTUS,Possibly Effective,4.41,4.51,4.54,39
+112,5,PYRIDOXINE (VITAMIN B6),Insufficient Evidence,3.6,4.09,3.74,35
+113,5,RAUVOLFIA VOMITORIA,Insufficient Evidence,0.0,0.0,0.0,0
+114,5,RED YEAST,Insufficient Evidence,3.91,4.36,3.84,181
+115,5,REISHI MUSHROOM,Insufficient Evidence,4.45,4.55,4.36,85
+116,5,RESVERATROL,Insufficient Evidence,4.0,4.65,3.97,34
+117,5,ROYAL JELLY,Insufficient Evidence,3.89,4.22,3.89,36
+118,5,SAFFLOWER,Insufficient Evidence,3.15,3.9,3.4,20
+119,5,SALACIA,Insufficient Evidence,3.22,3.17,3.83,18
+120,5,SELENIUM,Possibly Ineffective,3.64,4.32,3.64,22
+121,5,SESAME,Insufficient Evidence,4.0,4.0,4.0,2
+122,5,SOY,Possibly Effective,3.64,4.05,3.61,44
+123,5,STEVIA,Insufficient Evidence,3.59,4.21,3.5,112
+124,5,STINGING NETTLE,Insufficient Evidence,4.45,4.59,4.51,49
+125,5,TAURINE,Insufficient Evidence,4.39,4.69,4.53,51
+126,5,TOMATO,Possibly Ineffective,5.0,5.0,4.0,1
+127,5,TURMERIC,Insufficient Evidence,4.03,4.34,4.07,401
+128,5,VANADIUM,Insufficient Evidence,4.18,4.27,4.23,22
+129,5,VITAMIN C (ASCORBIC ACID),Insufficient Evidence,4.33,4.4,4.4,52
+130,5,VITAMIN D,Insufficient Evidence,3.25,4.05,3.3,336
+131,5,VITAMIN E,Insufficient Evidence,3.62,4.26,3.64,47
+132,5,VITAMIN K,Insufficient Evidence,4.05,4.16,4.05,19
+133,5,WHEAT BRAN,Possibly Ineffective,4.5,4.6,4.5,10
+134,5,WHEY PROTEIN,Insufficient Evidence,3.35,3.67,3.38,40
+135,5,WHITE HOREHOUND,Insufficient Evidence,5.0,3.0,3.0,2
+136,5,WHITE MULBERRY,Possibly Effective,3.35,4.53,3.47,17
+137,5,WINE,Possibly Effective,3.55,3.82,4.0,11
+138,5,XANTHAN GUM,Possibly Effective,1.67,1.75,1.75,12
+139,5,YERBA MATE,Insufficient Evidence,3.63,4.17,3.54,24
+140,5,ZINC,Insufficient Evidence,3.6,4.16,3.42,55

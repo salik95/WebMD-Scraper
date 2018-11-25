@@ -1,0 +1,11 @@
+id,condition_id,name,effectiveness,average_effectiveness,average_easeofuse,average_satisfaction,total_reviews
+1,1,COENZYME Q10,Insufficient Evidence,3.83,4.46,3.96,184
+2,2,BORAGE,Possibly Effective,3.75,4.36,3.89,28
+3,2,GINGER,Insufficient Evidence,4.36,4.53,4.51,75
+4,2,N-ACETYL CYSTEINE,Insufficient Evidence,4.36,4.66,4.44,94
+5,3,QUERCETIN,Insufficient Evidence,4.26,4.7,4.35,46
+6,3,VITAMIN C (ASCORBIC ACID),Possibly Effective,4.33,4.4,4.4,52
+7,4,FOLIC ACID,Possibly Ineffective,3.34,4.18,3.45,99
+8,4,VITAMIN A,Likely Ineffective,3.42,3.92,3.42,12
+9,4,VITAMIN B12,Insufficient Evidence,3.57,4.17,3.56,133
+10,5,BUTTERBUR,Insufficient Evidence,4.27,4.8,4.32,71
